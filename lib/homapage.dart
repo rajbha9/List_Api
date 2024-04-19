@@ -33,7 +33,6 @@ class _ProductListState extends State<ProductList> {
   void initState() {
     // TODO: implement initState
     super.initState();
-    futureProduct = APIHelper.fetchProducts() as Future<List<Product>>;
 
   }
   @override
